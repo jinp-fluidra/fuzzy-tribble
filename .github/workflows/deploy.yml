@@ -39,5 +39,3 @@ jobs:
 
      - name: Deploy CDK stack
         run: cdk deploy --require-approval never
-        working-directory: ./cdk-project
-        
