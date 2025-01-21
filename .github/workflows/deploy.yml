@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./cdk-project
 
       - name: Install AWS CDK
         run: npm install -g aws-cdk
@@ -33,7 +34,9 @@ jobs:
           aws-region: us-east-2
 
       - name: Synthesize CDK stack
-        run: cdk synth
+        run: cdk synth 
+        working-directory: ./cdk-project
 
     #  - name: Deploy CDK stack
     #    run: cdk deploy --require-approval never
+    #    working-directory: ./cdk-project
