@@ -1,5 +1,5 @@
 {
-    "bucketName": "jinal-test-bucket",
-    "dynamoDBTableName": "JinalTestTable",
-    "bucketName2": "test-bucket2"
+    "bucketName": "jinal-test-bucket3",
+    "dynamoDBTableName": "JinalTestTable2",
+    "bucketName2": "jinal-test-bucket2"
 }
