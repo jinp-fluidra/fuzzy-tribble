@@ -6,7 +6,7 @@ import * as fs from 'fs';
 const parameters = JSON.parse(fs.readFileSync('parameters.json','utf8'));
 
 const app = new cdk.App();
-new Jinal(app, 'Jinal1Test', {
+new Jinal(app, 'Jinal2Test', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

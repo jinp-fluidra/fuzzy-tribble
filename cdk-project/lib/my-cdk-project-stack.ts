@@ -51,12 +51,12 @@ export class Jinal extends cdk.Stack {
     });
 
     // Output the bucket name and table name
-    new cdk.CfnOutput(this, 'Jin-Test1', {
+    new cdk.CfnOutput(this, 'Jin-Test3', {
       value: bucket.bucketName,
       description: 'The name of the S3 bucket',
     });
 
-    new cdk.CfnOutput(this, 'test-table1', {
+    new cdk.CfnOutput(this, 'test-table2', {
       value: table.tableName,
       description: 'The name of the DynamoDB table',
     });
